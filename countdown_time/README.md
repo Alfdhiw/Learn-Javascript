@@ -1,8 +1,11 @@
-# React + Vite
+# <a href="" style="background-color: #1a73e8; color: white; font-weight: bold; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Real Time Countdown</a>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> [!IMPORTANT]
+> Using react Js version 18.2.0. For stable version, see [here](https://react.dev/learn/start-a-new-react-project)
 
-Currently, two official plugins are available:
+### Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img align="left" alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+<img align="left" alt="css3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+<img align="left" alt="javascript" src="https://img.shields.io/badge/javascript%20-F5E015.svg?&style=for-the-badge&logo=javascript&logoColor=black" /> 
+<img align="left" alt="react" src="https://img.shields.io/badge/react-1572B6?style=for-the-badge&logo=react&logoColor=white" />
