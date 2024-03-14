@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    background: #bb90c9;
+    background-size: cover;
+    -webkit-animation: bg-color 20s infintite;
+    animation: bg-color 20s infinite;
+  }
+  @-webkit-keyframes bg-color {
+    14.3% {
+      background-color: #45006e;
+    }
+    28.6% {
+      background-color: #470487;
+    }
+    42.9% {
+      background-color: #7604a6;
+    }
+    57.2% {
+      background-color: #7f37cc;
+    }
+    71.5% {
+      background-color: #a86cc4;
+    }
+    85.8% {
+      background-color: #b580cb;
+    }
+    100% {
+      background-color: #bb90c9;
+    }
+  }
+  
+  @keyframes bg-color {
+    14.3% {
+        background-color: #45006e;
+      }
+      28.6% {
+        background-color: #470487;
+      }
+      42.9% {
+        background-color: #7604a6;
+      }
+      57.2% {
+        background-color: #7f37cc;
+      }
+      71.5% {
+        background-color: #a86cc4;
+      }
+      85.8% {
+        background-color: #b580cb;
+      }
+      100% {
+        background-color: #bb90c9;
+      }
+  }
+  
+  .container {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 140px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    margin-top: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+
+  /* button-age */
+.btn-age {
+    background: #7f37cc;
+    background: linear-gradient(0deg, #7f37cc 0%, #9b6ecb 100%);
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+  }
+  .btn-age span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-age:before,
+  .btn-age:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+     background: #8f53cf;
+    transition: all 0.3s ease;
+  }
+  .btn-age:before {
+    height: 0%;
+    width: 2px;
+  }
+  .btn-age:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-age:hover{
+     background: transparent;
+    box-shadow: none;
+  }
+  .btn-age:hover:before {
+    height: 100%;
+  }
+  .btn-age:hover:after {
+    width: 100%;
+  }
+  .btn-age span:hover{
+     color: #a379d0;
+  }
+  .btn-age span:before,
+  .btn-age span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+     background: #6820b5;
+    transition: all 0.3s ease;
+  }
+  .btn-age span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .btn-age span:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-age span:hover:before {
+    height: 100%;
+  }
+  .btn-age span:hover:after {
+    width: 100%;
+  }
+    
+  
+  #result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }

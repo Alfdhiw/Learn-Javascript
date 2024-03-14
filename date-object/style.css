@@ -1,0 +1,94 @@
+/* Pure CSS */
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker|Noto+Sans);
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.highlight{
+  color:white;
+  Font-weight: bolder;
+}
+.main-container {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:column;
+          flex-direction:column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #181819;
+}
+
+.font-container {
+  width: 100%;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+h5 {
+  -webkit-transition: linear;
+  -o-transition: linear;
+  transition: linear;
+  -webkit-animation: fontanimation 7s infinite;
+  animation: fontanimation 7s infinite;
+  position: absolute;
+  color: #f8f8ff;
+  font-family: "Permanent Marker", cursive;
+}
+
+.guide{
+  max-width:100%;
+  text-align:center;
+}
+
+p{
+  color:white;
+  opacity:1;
+  font-weight:bolder;
+  Text-shadow:1px 2px red;
+  font-family: 'Noto Sans', sans-serif;
+  font-size:30px;
+  padding-top:50px;
+}
+
+
+@keyframes fontanimation {
+  0% {
+    font-size: 0;
+    left: 5%;
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+    left: 70%;
+    font-size: 50px;
+    -webkit-transform: rotate(700deg);
+    transform: rotate(700deg);
+  }
+  100% {
+    left: 5%;
+    opacity: 0;
+    font-size: 0;
+  }
+}
